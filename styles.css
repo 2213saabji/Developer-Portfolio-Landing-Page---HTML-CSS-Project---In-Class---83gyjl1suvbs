@@ -21,7 +21,7 @@
 }
 .home .name{
     position: absolute;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .home .name p{
     font-size: 60px;     
@@ -103,6 +103,156 @@ footer p{
 }
 footer .lp{
     padding-bottom: 40px;
+}
+
+
+
+@media (max-width:1028px){
+    .home .name p{
+        font-size: 50px;
+    }
+    .home .name{
+        margin-top: 20px;
+    }
+    .home .name p span{
+        font-size: 20px;
+    }
+    .home img{
+        height: 90vh;
+    }
+    .home{
+        height: 90vh;
+    }
+    .work{
+        font-size: 40px;
+    }
+    .work p span{
+        font-size: 55px;
+    }
+    .carddiv{
+        width: 80%;
+        margin: 50px 10%;
+
+    }
+   
+}
+
+
+@media (max-width:800px){
+    .home .name p{
+        font-size: 40px;
+    }
+    .home .name{
+        margin-top: 20px;
+    }
+    .home .name p span{
+        font-size: 15px;
+    }
+    .home img{
+        height: 80vh;
+    }
+    .home{
+        height: 80vh;
+    }
+    .work{
+        font-size: 40px;
+        height: 90px;
+    }
+    .work p span{
+        font-size: 50px;
+    }
+    .carddiv{
+        width: 50%;
+        margin: 50px 25%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer div{
+        width: 80%;   
+        color: white;
+    }
+    
+}
+
+
+@media (max-width:600px){
+    .home .name p{
+        font-size: 30px;
+    }
+    .home .name{
+        margin-top: 30px;
+    }
+    .home .name p span{
+        font-size: 14px;
+    }
+    .home img{
+        height: 70vh;
+    }
+    .home{
+        height: 70vh;
+    }
+    .work{
+        font-size: 35px;
+        height: 80px;
+    }
+    .work p span{
+        font-size: 45px;
+    }
+    .carddiv{
+        width: 60%;
+        margin: 50px 20%;
+    }
+}
+
+@media (max-width:500px){
+    .work{
+        font-size: 28px;
+        height: 60px;
+    }
+    .work p span{
+        font-size: 38px;
+    }
+    .carddiv{
+        width: 70%;
+        margin: 50px 15%;
+    }
+    footer div{
+        width: 100%;   
+    }
+}
+
+@media (max-width:400px){
+    .home .name p{
+        font-size: 25px;
+    }
+    .home .name{
+        margin-top: 20px;
+    }
+    .home .name p span{
+        font-size: 12px;
+    }
+    .home img{
+        height: 60vh;
+    }
+    .home{
+        height: 60vh;
+    }
+    .work{
+        font-size: 23px;
+        height: 60px;
+    }
+    .work p span{
+        font-size: 33px;
+    }
+    .carddiv{
+        width: 70%;
+        margin: 50px 15%;
+    }
 }
 
 
